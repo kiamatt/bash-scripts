@@ -1,13 +1,11 @@
 #!/bin/sh
 
-cd /var/www/html/$1
-
 git checkout master
 
 git pull origin master
 
 echo 'Master branch updated'
 
-git checkout -b $2
+git checkout -b $1
 
-echo "Git branch $2 checked out"
+echo "Git branch $1 checked out"
