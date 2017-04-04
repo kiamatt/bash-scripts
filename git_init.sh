@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/var/www/html/$1
+cd /var/www/html/$1
 
 git checkout master
 
